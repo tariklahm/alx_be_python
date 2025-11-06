@@ -1,8 +1,11 @@
 #variable assignement(principle in $, rate %, time in years)
-principle =int(1000)
-rate = float(0.05)
-time = int(3)
+principle = 1000
+rate = 0.05
+time = 3
 #Calculate the simple interest(I = P * R * T)
-simple_interest = principle * rate * time
+p = int(principle)
+R = Float(rate)
+T = int(time)
+I = P * R * T
 #Print the result
-print("The simple interest is : ", simple_interest)
+print("The simple interest is : ", I)
